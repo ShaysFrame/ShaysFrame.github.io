@@ -1,87 +1,216 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Frames</title>
-<style>
+<!DOCTYPE html><html><head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A software imagineer with a passion for mobile development.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="portfolio">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <title>Aladdine Abdou</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = null;
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer=""></script>
+  
+  
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <style id="splash-screen-style">
+    html {
+      height: 100%
+    }
+
     body {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
-        background-color: #000;
-        color: #fff;
+      margin: 0;
+      min-height: 100%;
+      background-color: #60a3d9;
+          background-size: 100% 100%;
     }
-    .container {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
+
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
     }
-    h1 {
-        text-align: center;
-        font-size: 2.5em;
-        margin-bottom: 20px;
-        color: #fff;
-        text-shadow: 2px 2px 4px #000;
+
+    .contain {
+      display:block;
+      width:100%; height:100%;
+      object-fit: contain;
     }
-    p {
-        text-align: justify;
-        margin-bottom: 20px;
+
+    .stretch {
+      display:block;
+      width:100%; height:100%;
     }
-    .project {
-        margin-bottom: 40px;
+
+    .cover {
+      display:block;
+      width:100%; height:100%;
+      object-fit: cover;
     }
-    .project h2 {
-        font-size: 1.5em;
-        margin-bottom: 10px;
-        color: #fff;
-        text-shadow: 1px 1px 2px #000;
+
+    .bottom {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      -ms-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
     }
-    .project p {
-        margin-bottom: 10px;
+
+    .bottomLeft {
+      position: absolute;
+      bottom: 0;
+      left: 0;
     }
-    .project img {
-        max-width: 100%;
-        height: 400px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    .bottomRight {
+      position: absolute;
+      bottom: 0;
+      right: 0;
     }
-</style>
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #122035;
+          }
+    }
+  </style>
+  <script id="splash-screen-script">
+    function removeSplashFromWeb() {
+      document.getElementById("splash")?.remove();
+      document.getElementById("splash-branding")?.remove();
+      document.body.style.background = "transparent";
+    }
+  </script>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Frames</h1>
-        </header>
-        <section class="about">
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna vel libero sagittis commodo vel eu erat.</p>
-        </section>
-        <section class="projects">
-            <div class="project">
-                <h2>Project 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <img src="https://source.unsplash.com/featured/?code" alt="Project 1">
-            </div>
-            <div class="project">
-                <h2>Project 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <img src="https://source.unsplash.com/featured/?coding" alt="Project 2">
-            </div>
-        </section>
-        <footer>
-            <p>&copy; 2024 ShaysFrame&trade;. All rights reserved.</p>
-        </footer>
-    </div>
-</body>
-</html>
+  <picture id="splash">
+      <source srcset="splash/img/light-1x.png 1x, splash/img/light-2x.png 2x, splash/img/light-3x.png 3x, splash/img/light-4x.png 4x" media="(prefers-color-scheme: light)">
+      <source srcset="splash/img/dark-1x.png 1x, splash/img/dark-2x.png 2x, splash/img/dark-3x.png 3x, splash/img/dark-4x.png 4x" media="(prefers-color-scheme: dark)">
+      <img class="center" aria-hidden="true" src="splash/img/light-1x.png" alt="">
+  </picture>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
 
-<!-- Sure! Here are some random image URLs that could lead to real images of cool-looking programming environments:
 
-1. ![Programming Environment 1](https://source.unsplash.com/featured/?programming)
-2. ![Programming Environment 2](https://source.unsplash.com/featured/?coding)
-3. ![Programming Environment 3](https://source.unsplash.com/featured/?developer)
-4. ![Programming Environment 4](https://source.unsplash.com/featured/?technology)
-5. ![Programming Environment 5](https://source.unsplash.com/featured/?code)
-
-These URLs use the Unsplash API to fetch random images related to programming and technology. -->
+</body></html>

@@ -1,11 +1,11 @@
 {
-    "name": "Aladdine Abdou",
-    "description": "Développeur Mobile",
-    "subDescription": "Passionné par Flutter & Python",
+    "name": "R. Md. Mahafuj (Shay)",
+    "description": "移动应用开发者",
+    "subDescription": "Flutter 和 Python 爱好者",
     "contacts": [
         {
             "tooltip": "Github",
-            "url": "https://github.com/AladdineDev",
+            "url": "https://github.com/shaysframe",
             "icon": {
                 "codePoint": "0xefb7",
                 "fontFamily": "FontAwesome",
@@ -14,7 +14,7 @@
         },
         {
             "tooltip": "Twitter",
-            "url": "https://twitter.com/AladdineDev",
+            "url": "https://twitter.com/shaysframe",
             "icon": {
                 "codePoint": "0xf0ea",
                 "fontFamily": "FontAwesome",
@@ -23,7 +23,7 @@
         },
         {
             "tooltip": "LinkedIn",
-            "url": "https://www.linkedin.com/in/aladdine-dev",
+            "url": "https://www.linkedin.com/in/rmdmahafuj",
             "icon": {
                 "codePoint": "0xeffb",
                 "fontFamily": "FontAwesome",
@@ -31,8 +31,8 @@
             }
         },
         {
-            "tooltip": "aladdine.abdou@gmail.com",
-            "url": "mailto:aladdine.abdou@gmail.com",
+            "tooltip": "akashshaykh@gmail.com",
+            "url": "mailto:akashshaykh@gmail.com",
             "icon": {
                 "codePoint": "0xeaad",
                 "fontFamily": "FontAwesome",
@@ -40,8 +40,8 @@
             }
         },
         {
-            "tooltip": "+33 7 82 54 34 70",
-            "url": "tel:+33782543470",
+            "tooltip": "+86 175 1923 1071",
+            "url": "tel:+8617519231071",
             "icon": {
                 "codePoint": "0xecbb",
                 "fontFamily": "FontAwesome",
@@ -52,22 +52,22 @@
     "resumes": [
         {
             "languageCode": "en",
-            "url": "https://drive.google.com/file/d/1pVg6EjpZvixMcOkgRMGrhrkmAeIaSn3t/view?usp=sharing"
+            "url": "https://1drv.ms/b/s!Al6C1g_uSarngpNIfmdojCG2tfNadA?e=3LqXUc"
         },
         {
             "languageCode": "fr",
-            "url": "https://drive.google.com/file/d/13t62MynE9GavlyrtHNM1ShdkdJT0bc0B/view?usp=sharing"
+            "url": "https://1drv.ms/b/s!Al6C1g_uSarngpNIfmdojCG2tfNadA?e=3LqXUc"
         }
     ],
-    "aboutDescription": "Salut ! Je m'appelle Aladdine, et je suis apprenti développeur en quatrième année de Mobilité et Objets Connectés à l'ESGI Paris. Passionné par l'écosystème mobile, je combine mes études et mon expérience professionnelle pour créer des applications intuitives et riches en fonctionnalités.\nJ'aspire à mettre mes compétences au service de projets inspirants et challengeant.",
+    "aboutDescription": "嗨！我是 Shay，是一名初学者开发者，就读于中国 YZU 大学的四年级学生，专攻移动和物联网开发。对移动生态系统充满热情，我将学习与实践经验相结合，构建直观且功能丰富的应用程序。\n我渴望将我的技能投入到激发人心且具有挑战性的项目中。",
     "experiences": [
         {
-            "role": "Développeur Mobile",
-            "company": "Walt Disney Imagineering",
-            "description": "Développement d'une application mobile offline-first de levée des réserves pour Disneyland Paris, facilitant aux experts techniques la prise d'informations sur le terrain et fluidifiant la communication avec les services de maintenance pour la résolution des problèmes.",
+            "role": "移动应用开发者",
+            "company": "上海新才业企业管理有限公司",
+            "description": "为长春公司开发了一款离线优先的移动抓取应用，简化了现场技术专家的信息收集，并增强了与维修服务的沟通，以解决问题。",
             "isPresent": false,
-            "startYear": 2022,
-            "endYear": 2023,
+            "startYear": 2023,
+            "endYear": 2024,
             "technologies": [
                 {
                     "name": "Flutter",
@@ -131,19 +131,19 @@
             ],
             "links": [
                 {
-                    "url": "https://sites.disney.com/waltdisneyimagineering/",
-                    "display": "Walt Disney Imagineering"
+                    "url": "https://h5.jidiandaojia.com/",
+                    "display": "极点到家"
                 }
             ]
         },
         {
-            "role": "Développeur Mobile",
-            "company": "Solutions Multi Techniques",
-            "description": "Développement d'une Progressive Web App pour les techniciens en systèmes de sécurité, leur permettant de générer des devis PDF complets. Cela permet la remise immédiate des devis aux clients après leur visite, augmentant ainsi le taux de conversion.",
+            "role": "网络管理员",
+            "company": "联合电力（扬州）有限公司",
+            "description": "为安全系统技术人员开发了一个渐进式 Web 应用程序，使他们能够生成全面的 PDF 报价。这样，客户访问后可以立即向客户发送报价，从而提高转化率。",
             "startYear": 2022,
-            "startMonth": 1,
-            "endYear": 2022,
-            "endMonth": 2,
+            "startMonth": 9,
+            "endYear": 2023,
+            "endMonth": 9,
             "technologies": [
                 {
                     "name": "Flutter",
@@ -169,13 +169,13 @@
             ]
         },
         {
-            "role": "Développeur Web",
-            "company": "Association FAIRE",
-            "description": "Développement du site web de l'association, en collaboration au sein d'un groupe de développeurs. Ce site web offre à ses visiteurs la possibilité d'en savoir plus sur l'association et de la rejoindre en tant que membres.\nÀ ce jour, le site web a attiré plus de 10 000 visites.",
-            "startYear": 2021,
-            "startMonth": 5,
-            "endYear": 2021,
-            "endMonth": 6,
+            "role": "网站开发人员",
+            "company": "联合电力（扬州）有限公司",
+            "description": "与一组开发人员合作开发了协会的网站。它使访问者有机会了解协会并成为会员。\n到目前为止，该网站已吸引了超过 10,000 次访问。",
+            "startYear": 2022,
+            "startMonth": 7,
+            "endYear": 2023,
+            "endMonth": 9,
             "technologies": [
                 {
                     "name": "HTML",
@@ -217,16 +217,16 @@
             "links": [
                 {
                     "url": "https://www.association-faire.fr",
-                    "display": "Association FAIRE"
+                    "display": "FAIRE 协会"
                 }
             ]
         }
     ],
-    "present": "Présent",
+    "present": "至今",
     "projects": [
         {
-            "name": "Portfolio",
-            "description": "Ce projet open source permet à toute personne de disposer d’un portfolio en ligne en moins de 10 minutes. Il adopte une architecture basée sur Riverpod en suivant une approche feature-first pour sa structure. Il est entièrement responsive, et prend en charge plusieurs thèmes ainsi que plusieurs langues.",
+            "name": "个人作品集",
+            "description": "这个开源项目允许任何人在不到 10 分钟的时间内拥有一个在线作品集。它采用基于 Riverpod 的架构，使用功能优先的方法构建结构。它完全响应式，并支持多种主题和多种语言。",
             "url": "https://github.com/AladdineDev/portfolio#readme",
             "icon": {
                 "codePoint": "0xefb7",
@@ -254,13 +254,13 @@
             "links": [
                 {
                     "url": "https://brittanychiang.com",
-                    "display": "Inspiré par Brittany Chiang"
+                    "display": "灵感来自于 Brittany Chiang"
                 }
             ]
         },
         {
             "name": "Learn Flow API",
-            "description": "Learn Flow est un projet de groupe visant à créer une solution de mise en relation d'élèves et d'enseignants. Cette API REST sert d'interface pour les différents clients du projet (Android, iOS et Web). Elle offre notamment des fonctionnalités d'authentification avec JWT.",
+            "description": "Learn Flow 是一个协作项目，旨在创建一个连接学生和教师的解决方案。此 REST API 作为项目的各种客户端（包括 Android、iOS 和 Web）的接口。它显着提供了 JWT 认证功能。",
             "url": "https://github.com/AladdineDev/learnflow-api#readme",
             "icon": {
                 "codePoint": "0xefb7",
@@ -309,8 +309,8 @@
             ]
         },
         {
-            "name": "Learn Flow Backoffice",
-            "description": "Il s'agit du back-office conçu pour les managers du projet Learn Flow. Cette Single-Page App leur permet de surveiller l'activité de leurs applications et utilisateurs (trafic, factures...).",
+            "name": "Learn Flow 后台管理系统",
+            "description": "这是 Learn Flow 项目经理的后台管理系统。这个单页应用程序使他们能够监控用户流量和与他们的应用程序和用户相关的发票等活动。",
             "url": "https://github.com/AladdineDev/learnflow_backoffice#readme",
             "icon": {
                 "codePoint": "0xefb7",
@@ -338,7 +338,7 @@
         },
         {
             "name": "GSB-Frais",
-            "description": "GSB-Frais est une application web de gestion des frais, développée pour les délégués médicaux et les comptables de l'entreprise fictive GSB. Elle facilite la saisie et la vérification des rapports mensuels des délégués médicaux, tout en permettant aux comptables de les traiter.",
+            "description": "GSB-Frais 项目是为虚构公司 GSB 的医疗代表和会计开发的基于 Web 的费用管理应用程序。它促进了医疗代表的每月报告的录入和审查，同时使会计能够处理它们。",
             "url": "https://github.com/AladdineDev/GSB-Frais#readme",
             "icon": {
                 "codePoint": "0xefb7",
@@ -389,7 +389,7 @@
         },
         {
             "name": "GSB-RV-Visiteur-Serveur",
-            "description": "L'API REST du projet GSB sert d'interface pour les différents clients du projet (Android, Desktop et Web).",
+            "description": "GSB 项目的 REST API 为各种项目客户端（包括 Android、桌面和 Web 应用程序）提供接口。",
             "url": "https://github.com/AladdineDev/GSB-RV-Visiteur-Serveur#readme",
             "icon": {
                 "codePoint": "0xefb7",
@@ -434,7 +434,7 @@
     "languages": [
         {
             "code": "en",
-            "name": "Anglais",
+            "name": "英语",
             "nativeName": "English",
             "icon": {
                 "assetName": "assets/images/logos/flags/united-states-of-america.svg",
@@ -443,7 +443,7 @@
         },
         {
             "code": "fr",
-            "name": "Français",
+            "name": "法语",
             "nativeName": "Français",
             "icon": {
                 "assetName": "assets/images/logos/flags/france.svg",
@@ -461,18 +461,18 @@
         }
     ],
     "bottomBanner": {
-        "message": "Portfolio open source -",
-        "displayLink": "Forkez-le",
+        "message": "开源作品集 -",
+        "displayLink": "Fork 它",
         "linkUrl": "https://github.com/AladdineDev/portfolio#readme"
     },
-    "portfolio": "Portfolio",
-    "homeSectionTitle": "Accueil",
-    "aboutSectionTitle": "À propos",
-    "aboutSectionTitleAlt": "À propos de moi",
-    "experienceSectionTitle": "Expériences",
-    "projectsSectionTitle": "Projets",
-    "resume": "CV",
-    "downloadResume": "Télécharger le CV",
-    "openUrlError": "Impossible d'ouvrir l'url",
-    "unknownLanguageError": "Langue inconnue"
+    "portfolio": "个人作品集",
+    "homeSectionTitle": "首页",
+    "aboutSectionTitle": "关于",
+    "aboutSectionTitleAlt": "关于我",
+    "experienceSectionTitle": "经验",
+    "projectsSectionTitle": "项目",
+    "resume": "简历",
+    "downloadResume": "下载简历",
+    "openUrlError": "无法打开网址",
+    "unknownLanguageError": "未知语言"
 }

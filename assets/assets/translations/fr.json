@@ -1,11 +1,11 @@
 {
-    "name": "Aladdine Abdou",
+    "name": "R. Md. Mahafuj (Shay)",
     "description": "Développeur Mobile",
     "subDescription": "Passionné par Flutter & Python",
     "contacts": [
         {
             "tooltip": "Github",
-            "url": "https://github.com/AladdineDev",
+            "url": "https://github.com/shaysframe",
             "icon": {
                 "codePoint": "0xefb7",
                 "fontFamily": "FontAwesome",
@@ -14,7 +14,7 @@
         },
         {
             "tooltip": "Twitter",
-            "url": "https://twitter.com/AladdineDev",
+            "url": "https://twitter.com/shaysframe",
             "icon": {
                 "codePoint": "0xf0ea",
                 "fontFamily": "FontAwesome",
@@ -23,7 +23,7 @@
         },
         {
             "tooltip": "LinkedIn",
-            "url": "https://www.linkedin.com/in/aladdine-dev",
+            "url": "https://www.linkedin.com/in/rmdmahafuj",
             "icon": {
                 "codePoint": "0xeffb",
                 "fontFamily": "FontAwesome",
@@ -31,8 +31,8 @@
             }
         },
         {
-            "tooltip": "aladdine.abdou@gmail.com",
-            "url": "mailto:aladdine.abdou@gmail.com",
+            "tooltip": "akashshaykh@gmail.com",
+            "url": "mailto:akashshaykh@gmail.com",
             "icon": {
                 "codePoint": "0xeaad",
                 "fontFamily": "FontAwesome",
@@ -40,8 +40,8 @@
             }
         },
         {
-            "tooltip": "+33 7 82 54 34 70",
-            "url": "tel:+33782543470",
+            "tooltip": "+86 175 1923 1071",
+            "url": "tel:+8617519231071",
             "icon": {
                 "codePoint": "0xecbb",
                 "fontFamily": "FontAwesome",
@@ -52,11 +52,15 @@
     "resumes": [
         {
             "languageCode": "en",
-            "url": "https://drive.google.com/file/d/1pVg6EjpZvixMcOkgRMGrhrkmAeIaSn3t/view?usp=sharing"
+            "url": "https://1drv.ms/b/s!Al6C1g_uSarngpNIfmdojCG2tfNadA?e=3LqXUc"
         },
         {
             "languageCode": "fr",
-            "url": "https://drive.google.com/file/d/13t62MynE9GavlyrtHNM1ShdkdJT0bc0B/view?usp=sharing"
+            "url": "https://1drv.ms/b/s!Al6C1g_uSarngpNIfmdojCG2tfNadA?e=3LqXUc"
+        },
+        {
+            "languageCode": "cn",
+            "url": "https://1drv.ms/b/s!Al6C1g_uSarngpNIfmdojCG2tfNadA?e=3LqXUc"
         }
     ],
     "aboutDescription": "Salut ! Je m'appelle Aladdine, et je suis apprenti développeur en quatrième année de Mobilité et Objets Connectés à l'ESGI Paris. Passionné par l'écosystème mobile, je combine mes études et mon expérience professionnelle pour créer des applications intuitives et riches en fonctionnalités.\nJ'aspire à mettre mes compétences au service de projets inspirants et challengeant.",

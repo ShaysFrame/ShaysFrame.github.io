@@ -57,6 +57,10 @@
         {
             "languageCode": "fr",
             "url": "https://1drv.ms/b/s!Al6C1g_uSarngpNIfmdojCG2tfNadA?e=3LqXUc"
+        },
+        {
+            "languageCode": "cn",
+            "url": "https://1drv.ms/b/s!Al6C1g_uSarngpNIfmdojCG2tfNadA?e=3LqXUc"
         }
     ],
     "aboutDescription": "嗨！我是 Shay，是一名初学者开发者，就读于中国 YZU 大学的四年级学生，专攻移动和物联网开发。对移动生态系统充满热情，我将学习与实践经验相结合，构建直观且功能丰富的应用程序。\n我渴望将我的技能投入到激发人心且具有挑战性的项目中。",
@@ -132,7 +136,7 @@
             "links": [
                 {
                     "url": "https://h5.jidiandaojia.com/",
-                    "display": "极点到家"
+                    "display": "吉点到家"
                 }
             ]
         },
